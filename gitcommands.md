@@ -29,6 +29,8 @@ reflog 是本地的，它只记录你在本地仓库的操作历史，不会在�
 它能看到很多在 git log 中看不到的内容，例如“被抛弃”的分支或提交。
 
 # 7
-`git reset HEAD
+`git reset --hard HEAD^`
+git reset到HEAD^之后，git log中看不到reset之前的那个最新的版本，git log中最新的变回HEAD^  
+
 
 
