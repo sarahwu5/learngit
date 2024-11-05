@@ -88,11 +88,13 @@ Changes not staged for commit:
 `git remote add origin https://github.com/sarahwu5/learngit.git`  
 添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
 # 15
-下一步，就可以把本地库的所有内容push到远程库上  
+下一步，可以把本地库的所有内容push到远程库上  
 `git push -u origin master`  
 -u 是 --set-upstream 的缩写，意思是将当前分支与远程仓库中的指定分支（这里是 origin/master）关联起来。  
 在执行这个命令后，Git 会将本地的 master 分支与远程的 origin/master 分支关联起来，成为该分支的 "upstream"（上游分支）。  
 简化后续的 git push 和 git pull 操作：下一次你在 master 分支上时，可以直接运行 git push 或 git pull，而不需要再指定远程仓库和分支名（即不需要再写 git push origin master），Git 会自动知道你要与 origin/master 进行交互。
+
+# 16
 
 
 
