@@ -1,0 +1,16 @@
+Your identification has been saved in /c/git/.ssh/id_rsa
+Your public key has been saved in /c/git/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:KJ9A+CNG7ZsymI381JQ9BO3DF8Y1r4a1K49bBNcVdFE wu555sara@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|     .. . .o  .=E|
+|   o  .. +  + . .|
+|  o o o....o o   |
+| . +  += .= o    |
+|  o *o.oS. =     |
+|.* .oB .. o .    |
+|+.+.o.o  . o     |
+|  oo      =      |
+|   .     o..     |
++----[SHA256]-----+

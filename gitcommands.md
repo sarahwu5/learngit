@@ -76,6 +76,8 @@ Changes not staged for commit:
 `git checkout -- <file>`
 将指定的文件恢复到最近一次 git add 或者 git commit 的状态，等于丢弃该文件在工作区的修改。
 
+# 13
+
 
 
 
