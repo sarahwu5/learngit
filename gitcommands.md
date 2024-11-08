@@ -99,3 +99,28 @@ Changes not staged for commit:
 可以从远程库将内容克隆到本地库  
 `git clone https://github.com/sarahwu5/gitskills.git`  
 clone下来的仓库，在本地修改后，正常git add/commit，然后`git push`即可push到仓库
+
+# 17
+如何建立一个新的仓库，并远程push  
+1. 在本地建好仓库 `git init`  `git add` `git commit`  
+2. 在远程建好仓库  
+`git remote add origin https://github.com/sarahwu5/torch.git`
+3. 将本地和远程关联`git push -u origin master`
+
+# 18
+其他相关17的指令  
+1. **检查现有的远程仓库**：
+   使用 `git remote -v` 命令来查看当前配置的远程仓库地址
+
+2. **修改远程仓库地址**：
+   更改现有的远程仓库地址，可以使用 `git remote set-url origin <new-url>` 命令，其中 `<new-url>` 是新的远程仓库地址。
+
+3. **添加新的远程仓库**：
+   添加另一个远程仓库，可以为其指定不同的名称，比如 `git remote add upstream <new-url>`，这样你就可以拥有多个远程仓库，每个仓库有不同的名称。
+
+4. **删除并重新添加远程仓库**：
+   如果你确定要替换现有的远程仓库地址，可以先删除现有的远程仓库，然后重新添加：
+   ```bash
+   git remote remove origin
+   git remote add origin https://github.com/sarahwu5/torch.git
+   ```
