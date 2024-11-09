@@ -124,3 +124,13 @@ clone下来的仓库，在本地修改后，正常git add/commit，然后`git pu
    git remote remove origin
    git remote add origin https://github.com/sarahwu5/torch.git
    ```
+
+
+# 19
+本地git init之后主分支默认是master，`git push -u origin master`的意思是将本地当前分支推送到远程的origin/master  
+给本地当前分支改名字`git branch -M main`，-M是强制改名的意思  
+我刚才先`git push -u origin master`，又`git push -u origin main`，就会在仓库创建两个不同分支master和main
+
+# 20
+可以使用 git commit 命令时带上 -a 选项，这样会自动将所有已经跟踪的文件的更改添加到暂存区并提交。但是，这不会添加那些尚未被跟踪的新文件。对于新文件，你仍然需要使用 git add 命令。  
+`git commit -a -m "你的提交信息"`
